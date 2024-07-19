@@ -23,9 +23,9 @@ services:
           - >-
             acs:fc:cn-hangzhou:official:layers/Python39-Package-Collection/versions/2
           - acs:fc:cn-hangzhou:official:layers/Python3-Flask2x/versions/2
-        memorySize: 128
-        cpu: 0.05
-        timeout: 60
+        memorySize: 2048
+        cpu: 1
+        timeout: 1200
         codeUri: ./
         diskSize: 512
         caPort: 9000
